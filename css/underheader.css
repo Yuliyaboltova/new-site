@@ -84,6 +84,9 @@ picture img {
   }
 }
 @media (max-width: 900px) {
+	.tagline-p {
+    max-width: auto; 
+   }
   .header-container {
     width: 100%;
     max-width: 1678px;
