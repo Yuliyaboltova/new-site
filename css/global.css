@@ -1,13 +1,3 @@
-
-/* @font-face {
-  font-family:"ArialBlack";
-  src: url("fonts/ArialBlack.ttf");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-} */
-
-
 *,
 *:before,
 *:after {
@@ -58,8 +48,7 @@ li {
 a {
   text-decoration: none;
   cursor: pointer;
-  color: #fff;
-}
+  }
 body {
   min-width: 320px;
   min-height: 100%;
@@ -259,23 +248,10 @@ body {
   padding-bottom: 30px;
   padding-left: 25px;
 }
-@media (max-width: 1440px) {
-  /* .text__h4 {
-    font-size: 20px;
-  } */
-
-
-
-
-
-
-}
-/* @media (max-width: 1024px) { */
- 
 @media (max-width: 900px) {
 	.text__h1 {
-		font-size: 1.9rem;
-		line-height: 2.2rem;
+		font-size: 2.4rem;
+		line-height: 2.6rem;
   }
 	.block-container {
 		width: 100%;}
@@ -312,6 +288,11 @@ body {
   .text__h2 {
     font-size: 30px;
     line-height: 2.1rem;
+  }
+
+	.text__h1 {
+		font-size: 1.8rem;
+		line-height: 2.1rem;
   }
  }
 @media (max-width: 350px) {

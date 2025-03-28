@@ -1,4 +1,5 @@
-.btn-servise a {
+.btn-servise {
+	text-align: center;
   width: 170px;
 	height: 44px;
   display: flex;
@@ -13,13 +14,19 @@
   letter-spacing: 0.01em;
   color: #fff;
 }
-.btn-servise:hover a {
+.btn-servise:hover  {
   background-color: transparent;
   border: 1px solid #b0b8c0;;
   color: #1a1a1f;
 }
+.btn-servise a  {
+  color: #fff;
+}
+.btn-servise:hover a  {
+  color: #000;
+}
 .btn-servise-mne {
-  padding-top: 25px;
+ margin-top: 25px;
 }
 .services-mne {
   background-color: #1a1a1f;
@@ -29,7 +36,7 @@
 .mne-line {
   background-color: #363840;
   width: 50%;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 10px;
   content: "";
   height: 1px;
@@ -52,7 +59,7 @@
 .mne-picture__block-text {
   width: 50%;
   margin-left: 10%;
-  margin-top: 35%;
+  margin-top: 40%;
   padding-bottom: 35px;
 }
 .mne-cards {
@@ -260,9 +267,6 @@
 @media (max-width: 552px) {
   .btn-servise a {
     width: 100%;
-  }
-  .btn-servise-mne {
-    padding-top: 20px;
   }
   .mne-text-p li {
     font-size: 14px;
