@@ -24,6 +24,7 @@
   fill: #fff;
 }
 .social-link-item a {
+	color:#fff;
   display: flex;
   align-items: center;
 }
