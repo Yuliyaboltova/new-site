@@ -111,6 +111,10 @@
   color: #1a1a1f;
   border: 1px solid #bbb;
 }
+.btn-reviews{
+	margin-top: 30px;
+}
+
 @media (max-width: 1000px) {
   .reviews {
     padding-top: 20px;
@@ -142,10 +146,16 @@
     padding-bottom: 30px;
   }
   .swiper-slide-info {
-    padding: 20px 16px 16px 16px;
+		margin-bottom: 5px;
+    padding: 20px 16px 5px 16px;
   }
 }
 @media (max-width: 900px) {
+
+	.btn-reviews{
+		margin-top: 55px;
+	}
+	
   .ss-slide {
     padding-right: 0px;
   }

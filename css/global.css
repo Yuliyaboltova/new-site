@@ -62,10 +62,10 @@ body {
 }
 
 .text__h1 {
-	letter-spacing: 0.1rem; 
+	/* letter-spacing: 0.1rem;  */
   line-height: 3.5rem;
   font-size: 3rem;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 3.5rem;
   font-stretch: normal;
   color: #fff;
@@ -120,39 +120,6 @@ body {
   font-size: 20px;
   transform: rotate(-90deg);
   color: #fff;
-}
-.btn-up {
-  z-index: 999;
-  position: fixed;
-  background-color: #1a1a1f;
-  border: #fff 2px solid;
-  border-radius: 50%;
-  right: 16px;
-  left: auto;
-  bottom: 16px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: opacity 0.3s ease-in-out;
-  width: 48px;
-  height: 48px;
-  opacity: 1;
-}
-.btn-up span {
-  color: #fff;
-}
-.btn-up span svg {
-  fill: #fff;
-  font-size: 42px;
-  height: 42px;
-  vertical-align: middle;
-}
-.btn-up_hide {
-  display: none;
-}
-.btn-up_hiding {
-  opacity: 0;
 }
 .text16-e2 {
   line-height: 24px;
@@ -250,6 +217,7 @@ body {
 }
 @media (max-width: 900px) {
 	.text__h1 {
+		font-weight: 500;
 		font-size: 2.4rem;
 		line-height: 2.6rem;
   }
@@ -281,12 +249,18 @@ body {
   }
 }
 @media (max-width: 500px) {
-	
-  .card-title {
+	.text__h2 {
+    font-size: 25px;
+  }
+
+	.text__h5 {
+		font-size: 20px;
+	}
+	  .card-title {
     padding: 16px 6px 16px;
   }
   .text__h2 {
-    font-size: 30px;
+    font-size: 26px;
     line-height: 2.1rem;
   }
 
@@ -296,9 +270,7 @@ body {
   }
  }
 @media (max-width: 350px) {
-  .text__h2 {
-    font-size: 25px;
-  }
+ 
 	.text__h3 {
     font-size: 25px;
   }

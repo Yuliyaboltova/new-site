@@ -88,6 +88,7 @@
 .footer-social-item svg {
   width: 20px;
   height: 20px;
+	fill: #fff;
 }
 .footer-hydrated  svg {
   width: 21px;
