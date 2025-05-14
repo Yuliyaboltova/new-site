@@ -149,6 +149,164 @@
 		</section>
 
 		
+	; /*Перегон*/
+	; 		<section class="">
+	; 		<div class="block-container">
+	; 			<div class="additional-line">
+
+	; 				<div class="additional-line-item">
+						
+	; 					<div class="additional-line-img">
+	; 						<img src="images/img/mini1.png" alt="авто">
+	; 					</div>
+
+	; 					<div class="additional-line-text">
+	; 						<h4 class="text__h4">ПЕРЕГОН АВТО ИЗ ЕВРОПЫ В СЛОВЕНИЮ</h4>
+	; 						<div class="small-line-germany"></div>
+	; 						<div class="sst-price">
+	; 							<span class="numder">от 500</span><span class="euro">€</span>
+	; 						</div>
+	; 					</div>
+						
+	; 				</div>
+
+	; 			</div>
+
+	; 		</div>
+	; 	</section>  -->
+
+; карточки
+
+ 	;  <section class="services-si__customs">
+	; 		<div class="block-container ">
+	; 			<div class="block-title">
+	; 				<h2 class="text__h2 th-black">ПРОВЕРКА АВТОМОБИЛЯ ПОЗВОЛИТ ВАМ</h2>
+	; 			</div>
+
+	; 			<div class="block-items">
+
+	; 				<div class="block-item-si">
+	; 					<div class="block-item__si__img">
+	; 						<img src="images/icon/icon_si1.png" alt="">
+	; 					</div>
+	; 					<div class="block-item--header">
+	; 						<div class="block-headertext ">
+	; 							<h4 class=" si-text ">Выявить возможные скрытые дефекты</h4>
+	; 						</div>
+	; 					</div>
+	; 					<div class="small-line-si"></div>
+	; 					<p class="block-item_text">Поможет избежать покупку проблемного автомобиля. </P>
+	; 				</div>
+
+	; 				<div class="block-item-si">
+	; 					<div class="block-item__si__img">
+	; 						<img src="images/icon/icon_si3.png" alt="">
+	; 					</div>
+	; 					<div class="block-item--header">
+	; 						<div class="block-headertext ">
+	; 							<h4 class=" si-text ">Узнать реальный пробег автомобиля</h4>
+	; 						</div>
+	; 					</div>
+	; 					<div class="small-line-si"></div>
+	; 					<p class="block-item_text">Разрешит определить износ основных компонентов автомобиля. </p>
+	; 				</div>
+
+	; 				<div class="block-item-si">
+	; 					<div class="block-item__si__img">
+	; 						<img src="images/icon/icon_si2.png" alt="">
+	; 					</div>
+	; 					<div class="block-item--header">
+	; 						<div class="block-headertext">
+	; 							<h4 class="si-text">Получить информацию о состоянии авто
+	; 							</h4>
+	; 						</div>
+	; 					</div>
+	; 					<div class="small-line-si"></div>
+	; 					<p class="block-item_text">Вы оцените стоит ли автомобиль запрашиваемых денег. </p>
+	; 				</div>
+
+	; 			</div>
+	; 		</div>
+	; 	</section>  -->
+
+
+ 		;  <section>
+		; 	<div class="block-container  ">
+		; 		<div class="germany-comments">
+		; 			<p>Покупка автомобиля это серьезная инвестиция. Покупателю важно иметь полную
+		; 				информацию о состоянии автомобиля, чтобы быть уверенным в правильности своего выбора. Профессиональная
+		; 				помощь специалиста поможет правильно оценить машину и минимизировать риски. </p>
+		; 		</div>
+		; 	</div>
+		; </section> -->
+
+
+; <section class="services-si__customs">
+; 			<div class="block-container ">
+; 				<div class="block-title">
+; 					<h2 class="text__h2 th-black">ПРОВЕРКА АВТОМОБИЛЯ ПОЗВОЛИТ ВАМ</h2>
+; 				</div>
+
+; 				<div class="block-items">
+
+; 					<div class="block-item-si">
+; 						<div class="block-item__si__img">
+; 							<img src="images/icon/icon_si1.png" alt="">
+; 						</div>
+; 						<div class="block-item--header">
+; 							<div class="block-headertext ">
+; 								<h4 class=" si-text ">Выявить возможные скрытые дефекты</h4>
+; 							</div>
+; 						</div>
+; 						<div class="small-line-si"></div>
+; 						<p class="block-item_text">Поможет избежать покупку проблемного автомобиля. </P>
+; 					</div>
+
+; 					<div class="block-item-si">
+; 						<div class="block-item__si__img">
+; 							<img src="images/icon/icon_si3.png" alt="">
+; 						</div>
+; 						<div class="block-item--header">
+; 							<div class="block-headertext ">
+; 								<h4 class=" si-text ">Узнать реальный пробег автомобиля</h4>
+; 							</div>
+; 						</div>
+; 						<div class="small-line-si"></div>
+; 						<p class="block-item_text">Разрешит определить износ основных компонентов автомобиля. </p>
+; 					</div>
+
+; 					<div class="block-item-si">
+; 						<div class="block-item__si__img">
+; 							<img src="images/icon/icon_si2.png" alt="">
+; 						</div>
+; 						<div class="block-item--header">
+; 							<div class="block-headertext">
+; 								<h4 class="si-text">Получить информацию о состоянии авто
+; 								</h4>
+; 							</div>
+; 						</div>
+; 						<div class="small-line-si"></div>
+; 						<p class="block-item_text">Вы оцените стоит ли автомобиль запрашиваемых денег. </p>
+; 					</div>
+
+; 				</div>
+; 			</div>
+; 		</section>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		<div class="block-container1920">
 			<div class="mne-card-wrapper">
 				<div class="mne-card-container ">
