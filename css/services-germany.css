@@ -451,7 +451,7 @@
   }
 
   .benefits {
-    padding-inline-start: 30px;
+    padding-inline-start: 23px;
   }
   .additional-line-item {
     flex-direction: column;
@@ -598,12 +598,12 @@
 }
 @media (max-width: 393px) {
   .benefits-si-title h2 {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 @media (max-width: 320px) {
   .benefits-si-title h2 {
-    font-size: 22px;
+    font-size: 17px;
 
 }
 }
