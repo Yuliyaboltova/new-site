@@ -596,14 +596,11 @@
    
 }
 }
-@media (max-width: 393px) {
+@media (max-width: 374px) {
   .benefits-si-title h2 {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 @media (max-width: 320px) {
-  .benefits-si-title h2 {
-    font-size: 17px;
-
-}
+  
 }
