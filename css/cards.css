@@ -1,3 +1,40 @@
+/*блок 4*/
+.columns {
+  /* background-color: #1a1a1f;   */
+  /* padding: 50px 0 50px 0;
+  margin-top: 50px;*/
+} 
+.columns__row {
+  display: flex;
+  width: 100%;
+}
+.column {
+  flex: 0 1 33.3%; /*зпрет - можно +*/
+}
+
+.column__mini__item {
+  padding: 0;
+  margin: 3px;
+  width: auto;
+}
+
+.colomn__big {
+  padding: 0;
+  margin: 3px;
+  width: auto;
+}
+
+.column img {
+  object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/*блок4*/
+
+
+
 .card-section {
   width: 100%;
   background-color: #1a1a1f;
