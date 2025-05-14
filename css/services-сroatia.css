@@ -1,0 +1,76 @@
+/* .inspection-wrapper-croatia{
+	padding-top: 6rem;
+	background-color: #e2e8ef;
+	position: relative;
+	color:black;
+} */
+ /* .inspection-wrapper-croatia h1{
+	  font-size: 3rem;
+    font-weight: 400;
+    line-height: 3.5rem;
+    font-stretch: normal;
+}
+  */
+	.block-price-cr{
+		padding-top: 100px;
+		display: flex;
+
+	}
+
+
+	.price-cr{
+		padding-top: 100px;
+
+	}
+
+	 .list-colomn-cr{
+		padding-top: 100px;
+
+	} 
+
+	.block-price-cr__text{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-left: 50px;
+padding-right: 30px;
+
+
+	}
+	.block-price-cr__up{
+		/* flex: 0 0 50%; */
+
+	}
+	.block-price-cr_up img{
+max-width: 100%;
+height: auto;
+display: block;
+object-fit: cover;
+	}
+
+	@media (max-width: 962px) {
+		.block-price-cr {
+			flex-direction: column;
+			/* flex: 0 0 100%; */
+	 }
+
+	 .block-price-cr__up{
+		flex: 0 0 100%;
+
+	}
+	.block-price-cr__text{
+		padding-left: 0;
+		padding-right: 0;
+
+	}
+	.list-colomn-cr{
+		padding-top: 0px;
+
+	} 
+}
+
+
+
+
+	
+
