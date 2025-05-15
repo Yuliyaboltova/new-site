@@ -72,18 +72,17 @@
   align-items: center;
 }
 .si-text {
+	color: #000;
 	padding-top: 10px;
   font-weight: 300;
   text-transform: uppercase;
   font-size: 22px;
-  letter-spacing: 0.1rem;
   line-height: 1.55;
 }
 .block-item_text {
 	padding-top: 7px;
-  font-size: 16px;
-  letter-spacing: 0.1rem;
-  line-height: 1.3rem;
+  /* letter-spacing: 0.1rem;
+  line-height: 1.3rem; */
 
 }
 
@@ -149,22 +148,19 @@ font-weight: 500;
 
 } 
 .mne-text-p-si {
-  color: #363840;
-  font-weight: normal;
-  font-stretch: normal;
-  text-transform: none;
-  letter-spacing: 0.1rem;
-  line-height: 1.3rem;
+  /* letter-spacing: 0.1rem;
+  line-height: 1.3rem; */
   font-size: 14px;
 }
 
 .btn-servise a {
+	text-transform: uppercase;
   display: inline-block;
   text-align: center;
   transition: 0.3s ease-in;
   background-color: #1a1a1f;
   padding: 12px 30px;
-  font-size: 18px;
+  font-size: 16px;
   white-space: nowrap;
   letter-spacing: 0.01em;
   color: #fff;
@@ -311,9 +307,8 @@ font-weight: 500;
   font-weight: normal;
   font-stretch: normal;
   text-transform: none;
-  letter-spacing: 0.1rem;
-  line-height: 1.3rem;
-  font-size: 16px;
+  /* letter-spacing: 0.1rem;
+  line-height: 1.3rem; */
   list-style-position: inside;
   list-style-type: disc;
 }

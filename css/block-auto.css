@@ -14,6 +14,7 @@
   padding-top: 30px;
 }
 .cfs-button a {
+	text-transform: uppercase;
 	display: inline-block;
 	border: 1px solid #b0b8c0;;
  	transition: 0.3s ease-in; 
@@ -85,8 +86,11 @@
 .cfs__configuration-dots {
   margin-left: 16px;
 }
-.cfs__configuration-item h3 {
+.cfs__configuration-item h2 {
   padding-bottom: 16px;
+	font-size: 23px;
+	font-weight: 500;
+	text-transform: uppercase;
 }
 .cursor {
   cursor: pointer;
@@ -133,6 +137,7 @@
   clear: both;
 }
 .column {
+	padding-bottom: 2px;
   padding-right: 2px;
   float: left;
   width: 16.66%;

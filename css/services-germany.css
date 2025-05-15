@@ -15,7 +15,7 @@
   font-weight: 500;
   font-size: 15px;
   color: #1a1a1f;
-  padding-top: 40px;
+  padding-top: 30px;
 }
 /* .mini-price{
 	padding-top: 21px;
@@ -54,8 +54,7 @@
   list-style-type: disc;
   padding-bottom: 8px;
   list-style-position: outside;
-  /* list-style-position:inside;  */
-}
+  }
 .benefits {
   padding-inline-start: 40px;
 }
@@ -339,7 +338,7 @@
 .additional-text-germany {
   /* box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05), 0 5px 15px 0 rgba(0, 0, 0, 0.1); */
   background-color: #fff;
-  padding: 20px 20px;
+  padding: 16px 16px 30px 16px;
   color: #1a1a1f;
 }
 .additional-item:hover img {
@@ -451,7 +450,7 @@
   }
 
   .benefits {
-    padding-inline-start: 23px;
+    padding-inline-start: 28px;
   }
   .additional-line-item {
     flex-direction: column;
@@ -545,6 +544,13 @@
   }
 }
 @media (max-width: 604px) {
+
+	.benefits-si-title {
+    width: 100%; 
+ 
+	}
+
+
 
 	  .benefits-si-title h2 {
     font-size: 27px;

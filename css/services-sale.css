@@ -1,5 +1,4 @@
 
-
 .block-btn-sale {
   justify-content: left;
   left: 10px;
@@ -157,7 +156,7 @@
 .block-text-picture__text {
   padding-left: 24px;
   padding-right: 114px;
-  padding-bottom: 35px;
+  padding-bottom: 30px;
   justify-content: end;
   margin-top: 51%;
 }
@@ -236,7 +235,7 @@
     width: 100%;
     padding-right: 16px;
     padding-left: 16px;
-    margin-top: 5%;
+    margin-top: 7%;
   }
   .block-text-picture__picture {
     width: 100%;
@@ -249,6 +248,13 @@
   }
 }
 @media (max-width: 780px) {
+
+	.block-picture-sale {
+    text-align: center;
+		margin-bottom: 0px;
+		
+   }
+
   .ss-card-picture {
     flex: 1 0 35%;
   }
@@ -280,6 +286,11 @@
 }
 @media (max-width: 410px) {
  
+	.advantages-header__wrapper p{
+	text-align: center;
+		}
+
+
   .advantages-revers__text {
     padding: 0px 16px;
   }

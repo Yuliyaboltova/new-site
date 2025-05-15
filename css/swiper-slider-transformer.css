@@ -25,7 +25,7 @@
   text-align: start;
   background-color: transparent;
   flex: 0 0 32.666%;
-  padding-right: 10px;
+  padding-right: 7px;
   transition: 0.5s;
 }
 .sst-item__wrapper {
@@ -84,6 +84,7 @@
   flex-direction: row-reverse;
 }
 .sst-btn {
+	text-transform: uppercase;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -91,17 +92,18 @@
   border: none;
   background-color: transparent;
   color: #1a1a1f;
-  font-size: 18px;
+  font-size: 16px;
+	font-weight: 500;
   padding: 0;
 }
 .sst-btn svg {
   fill: #000;
 }
-.sst-btn:hover {
+/* .sst-btn:hover {
   border-bottom: 1px solid #bbb;
-  }
+  } */
 .sst-btn svg {
-  padding-right: 5px;
+  padding-left: 5px;
   position: relative;
   left: 0px;
   transition: 0.3s all;
@@ -118,9 +120,14 @@
 .link-sst {
   color: #1a1a1f;
 }
-.options {
+.options h2 {
   padding-top: 10px;
-}
+	text-transform: uppercase;
+	padding-bottom: 16px;
+	font-size: 23px;
+	font-weight: 500;
+	}
+
 .numder {
   font-size: 27px;
   font-weight: 500;
@@ -192,7 +199,7 @@
 		padding-top: 20px;
 	}
 	.sst-item {
-    flex: 0 0 99%;
+    flex: 0 0 98%;
   }
 	.swiper-pagination-transformer {
     visibility: visible;

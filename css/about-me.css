@@ -97,6 +97,7 @@
   color: white;
   transition: 0.3s ease-in; 
   border: 1px solid #b0b8c0;
+	text-transform: uppercase;
 }
 .reviews_btn_modal:hover {
   background-color: transparent;
@@ -141,7 +142,7 @@ body.lock {
 }
 .popup__content {
   background-color: #fff;
-  color: #000;
+  color: #363840;;
   max-width: 800px;
   position: relative;
 }
@@ -170,15 +171,31 @@ body.lock {
   border: none;
   border-radius: 3px;
 }
-.popup-btn-wrapper {
-  display: inline-block;
-  font-size: 18px;
-  padding-top: 10px;
+
+
+.popup-link-block {
+  display: flex;
+	padding-top: 10px;
   color: #1a1a1f;
 }
-.popup-btn-wrapper:hover {
-  border-bottom: 1px solid #bbb;
+.popup-link-block p{
+  font-size: 16px;
+	font-weight: 500; 
+	line-height: 17px;
+	margin-right: 2px;  
 }
+
+.popup-btn-wrapper span {
+  position: relative;
+  left: 0px;
+  transition: 0.4s  ease-in-out; 
+}
+.popup-btn-wrapper:hover span {
+  left: 10px;
+ /* transition: 0.4s all;  */
+ transition: all 150ms cubic-bezier(0.335, 0.015, 0.46, 0.995) 0s;
+ }
+
 .popup__modal_close svg {
   width: 15px;
   height: 15px;
