@@ -11,6 +11,9 @@
   padding-bottom: 8px;
 }
 
+.accordion-mini-gm{
+padding-top: 70px;
+}
 .link-mini {
   font-weight: 500;
   font-size: 15px;
@@ -42,10 +45,20 @@
   flex: 0 0 100%;
 }
 .accordion-gm-wrapper {
-  display: flex;
+  /* display: flex; */
   width: 85%; 
 	margin: 0 auto;  
 }
+
+/* .header-mini {
+	font-size: 33px;
+	line-height: 2.5rem;
+	letter-spacing: 0.01rem;
+	font-weight: 500;
+} */
+
+
+
 .benefits-wrapper {
   width: 97%;
   margin: 0 auto;
@@ -444,6 +457,14 @@
   }
 }
 @media (max-width: 788px) {
+
+	.accordion-mini-gm{
+		padding-top: 0px;
+		padding-bottom: 70px;
+		}
+
+
+
   .benefits-si-title h2 {
     text-align: center;
 		font-size: 29px;
@@ -461,7 +482,7 @@
   }
 
   .benefits-si-title {
-    padding: 50px 0px 30px;
+    padding: 50px 0px 45px;
   }
 
   .benefits-si-wrapper {

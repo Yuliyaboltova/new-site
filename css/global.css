@@ -260,6 +260,12 @@ body {
   }
 }
 @media (max-width: 500px) {
+
+	.text__h5 {
+      font-size: 17px;
+}
+
+
 	.text__h2 {
     font-size: 25px;
   }
