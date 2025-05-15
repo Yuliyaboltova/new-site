@@ -263,10 +263,6 @@ body {
 	.text__h2 {
     font-size: 25px;
   }
-
-	.text__h5 {
-		font-size: 20px;
-	}
 	  .card-title {
     padding: 16px 6px 16px;
   }
@@ -282,6 +278,9 @@ body {
  }
 @media (max-width: 350px) {
  
+	.text__h5 {
+		font-size: 16px;
+	}
 	.text__h3 {
     font-size: 25px;
   }

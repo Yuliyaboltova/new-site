@@ -196,6 +196,11 @@
   }
 }
 @media (max-width: 800px) {
+
+	.block-picture-sale {
+		padding: 0px;
+	}
+
   .ss-card-picture img {
     top: 35%;
   }
@@ -229,12 +234,12 @@
     margin-bottom: 2rem;
   }
   .block-text-picture {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .block-text-picture__text {
     width: 100%;
-    padding-right: 16px;
-    padding-left: 16px;
+    padding-right: 24px;
+    padding-left: 24px;
     margin-top: 7%;
   }
   .block-text-picture__picture {
@@ -248,6 +253,11 @@
   }
 }
 @media (max-width: 780px) {
+
+	.advantages-header__wrapper {
+   text-align: center;
+}
+
 
 	.block-picture-sale {
     text-align: center;
@@ -295,8 +305,8 @@
     padding: 0px 16px;
   }
   .block-text-picture__text {
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: 16px;
+    padding-left:  16px;
   }
   .ss-card {
     height: 850px;
