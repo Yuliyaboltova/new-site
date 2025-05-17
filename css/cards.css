@@ -34,6 +34,11 @@
 /*блок4*/
 
 
+.read-moor svg {
+	width: 12px;
+	height: 12px;
+		}
+	
 
 .card-section {
   width: 100%;
@@ -144,7 +149,8 @@ margin-left: 0;
 	text-transform: uppercase;
 	font-size: 15px;
 	
-} .read-moor {
+} 
+.read-moor {
 	padding-top: 10px;
 } 
 @media (max-width: 900px) {
@@ -164,21 +170,42 @@ margin-left: 0;
 		margin-left: 0;
   }
   .card-item img {
-    height: 350px;
+    height: 320px;
   }
 }
 @media (max-width: 500px) {
 
 	.block-img img {
-		max-height: 320px;
+		max-height: 300px;
 	}
  .card-title{
 	padding: 16px 6px 16px;
 
  }
 }
-@media (max-width: 400px) {
+@media (max-width: 425px) {
   .card-text {
     font-size: 16px;
   }
+	.block-img img {
+		max-height: 280px;
+	}
+}
+@media (max-width: 375px) {
+ 	.block-img img {
+		max-height: 250px;
+	}
+	.read-moor span {
+		font-size: 14px;
+		
+	}
+	.read-moor {
+	padding-top: 5px;
+		
+	}
+	.read-moor svg {
+width: 10px;
+height: 10px;
+	}
+
 }
